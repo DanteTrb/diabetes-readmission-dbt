@@ -1,0 +1,12 @@
+name: diabetes_readmission_dbt
+version: '1.0'
+config-version: 2
+
+profile: default
+
+model-paths: ["models"]
+
+models:
+  diabetes_readmission_dbt:
+    +materialized: view
+

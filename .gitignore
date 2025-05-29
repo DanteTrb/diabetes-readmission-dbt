@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+*.pkl
+*.db
+*.log
+*.env
+
+# Jupyter Notebook output
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# OS
+.DS_Store
+
+# dbt build artifacts
+dbt_packages/
+logs/
+target/
+
+# Dataset e file locali
+data/*.csv
+data/*.duckdb
+.env
+
+# Ambiente virtuale
+.venv/
